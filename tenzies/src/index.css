@@ -25,13 +25,13 @@ div#root {
     max-width: 400px;
 }
 
-main {
+#root main {
     background-color: #F5F5F5;
     height: 100%;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -51,4 +51,15 @@ main {
     font-size: 1.75rem;
     font-weight: bold;
     cursor: pointer;
+}
+
+.roll-dice {
+    width: 100px;
+    height: 36px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #5035FF;
+    color: white;
+    border-radius: 5px;
+    border: none;
 }
