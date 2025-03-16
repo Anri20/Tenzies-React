@@ -53,14 +53,16 @@ main {
 }
 
 .roll-dice {
-    width: 100px;
-    height: 36px;
-    font-size: 18px;
-    font-weight: bold;
+    width: auto;
+    height: 50px;
+    white-space: nowrap;
+    padding: 6px 21px;
+    border: none;
+    border-radius: 5px;
     background-color: #5035FF;
     color: white;
-    border-radius: 5px;
-    border: none;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .isHeld {
